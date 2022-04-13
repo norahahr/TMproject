@@ -3,7 +3,7 @@
 ## Inspiration
 Projects from previous years:
 - [Gender Bias in Fariy Tales](https://github.com/lisavangelderen/FairyTale)
-- [Fake News Detection] (https://github.com/joycedh/TMCI_project)
+- [Fake News Detection](https://github.com/joycedh/TMCI_project)
 
 Papers:
 - [Stepmothers are mean and academics are pretentious: What do
