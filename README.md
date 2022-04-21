@@ -1,7 +1,5 @@
 # Text Mining Project
 
-## Sentiment Analysis of Gendered News Headlines
-
 ## Abstract
 Throughout the project we are going to perform a sentiment analysis on (Australian) news headlines in a study of gendered language in English. The main aim of the project is to investigate whether the sentiment in the reporting changes with gender. We will perform sentiment analysis on gendered headlines (headlines including gender-inclusive language and gendered pronouns) and compare the sentiment between headlines featuring men and women. Our research hypothesis it that there is a stronger positive association with male-gendered headlines than female ones. The underlying motivation for leading this investigation is to create awareness about possibly embedded gender biases within newspaper’s headlines. This would ideally encourage further research regarding possible repercussions on readers’ perception and attitude towards the subsequent article.
 
@@ -19,14 +17,12 @@ Throughout the project we are going to perform a sentiment analysis on (Australi
 - The data was collected from early 2003 to the end of 2020
 - The headlines include major international events as well as some more australian focused happenings
 
-- We will also use a dataset for sentiment analysis.
-
 ## A tentative list of milestones for the project
 - Filter out irrelevant headlines (non-gendered)
 - Classify headlines into “male”- or “female”-gendered
 - Part of speech tagging the relevant headlines
 - Looking at verbs, adjectives and adverbs
-- Sentiment analysis, classification into positive and negative sentiments of the PoS in question
+- Sentiment analysis, classification into positive and negative sentiments of the PoS in question (this process will also require a sentiment dataset, not yet decided upon.)
 - Compare results between male and female sentiment
 
 ## Sources
