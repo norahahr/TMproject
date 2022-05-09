@@ -1,29 +1,38 @@
 # Text Mining Project
 
 ## Abstract
-Throughout the project we are going to perform a sentiment analysis on (Australian) news headlines in a study of gendered language in English. The main aim of the project is to investigate whether the sentiment in the reporting changes with gender. We will perform sentiment analysis on gendered headlines (headlines including gender-inclusive language and gendered pronouns) and compare the sentiment between headlines featuring men and women. Our research hypothesis it that there is a stronger positive association with male-gendered headlines than female ones. The underlying motivation for leading this investigation is to create awareness about possibly embedded gender biases within newspaper’s headlines. This would ideally encourage further research regarding possible repercussions on readers’ perception and attitude towards the subsequent article.
+In the following project we are going to perform a topic modelling on news headlines. The goal of the project is to compare the distribution of topics in an informal context of Reddit news headlines and a formal newspaper’s headlines. The investigation is guided by the hypothesis of finding an overrepresentation of some more polarized topics in the informal context, as opposed to the null hypothesis that there is no significant difference in topic distribution between both types of headlines. Finding a statistically significant difference would be for instance helpful in the discipline of media studies; understanding how polarization emerges from different news channels.
 
 ## Research questions
-- How do news headlines portray the perception of gender?
-- How does use of gender-inclusive language in news reports affect the reporting/content?
-- Is there a significant difference between how men and women are portrayed?
-
+-	Does there exist an overrepresentation of controversial topic in an informal news source such as Reddit?
 
 ## Dataset
-[A Million News Headlines](https://www.kaggle.com/datasets/therohk/million-headlines)
-- Headline published over 18 years
-- Headlines only from the australian ABC newspaper (Australian Broadcasting Corporation)
-- The dataset is a CSV file that contains two labels per datapoint, namely the date of publication as well as the headline itself (text in english, lowercase)
-- The data was collected from early 2003 to the end of 2020
-- The headlines include major international events as well as some more australian focused happenings
+[Reddit Worldnews](https://www.kaggle.com/datasets/rootuser/worldnews-on-reddit)
+### Reddit Worldnews headlines:
+-	The dataset is in the form of a CSV file
+-	Each datapoint is characterized by 8 features namely “Time created” (Unix timestamp of submission date), “Date created” (creation time in Year-Month-Day format), “Up votes” (how often upvoted), “Down votes”(how often downvoted), “Title” (the headline), “Over 18” (if accessible to minors), “Author” (reddit username of author) and “Subreddit” (the subcategory in reddit, always Worldnews)
+-	The categories made use of in our work will be only the “Title” column
+-	The dataset contains data collected between 2008 and 2016
+
+[Irish Times News](https://www.kaggle.com/datasets/therohk/ireland-historical-news)
+### Irish Times headlines:
+-	We chose this dataset since it presented the most global headlines of the datasets we found
+-	The dataset contains 1.61 million headlines collected over 25.5 years (mostly about European events)
+-	The file is in CSV format
+-	The file contains three features per datapoint namely “Publish date”, “Headline category” and “Headline” 
+-	Again, we will focus on the headline column and will need to exclude especially the categories in order to be able to perform clustering without biasing our model
+
 
 ## A tentative list of milestones for the project
-- Filter out irrelevant headlines (non-gendered)
-- Classify headlines into “male”- or “female”-gendered
-- Part of speech tagging the relevant headlines
-- Looking at verbs, adjectives and adverbs
-- Sentiment analysis, classification into positive and negative sentiments of the PoS in question (this process will also require a sentiment dataset, not yet decided upon.)
-- Compare results between male and female sentiment
+1.	Tokenizing headlines of both datasets
+2.	Lemmatization the headlines
+3.	Create sentence embeddings
+4.	Calculate sentence embeddings similarity measures
+5.	Visually present the embeddings on a similarity vector space (dimensionality reduction)
+6.	Manually distinguishing some topics
+7.	Applying a clustering method
+8.	Compare the topic distributions through a statistical testing
+9.	Conclude whether some topics are over/underrepresented in an (in)formal news context
 
 ## Sources
 
