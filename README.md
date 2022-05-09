@@ -19,7 +19,7 @@ In the following project we are going to perform a topic modelling on news headl
 -	We chose this dataset since it presented the most global headlines of the datasets we found
 -	The dataset contains 1.61 million headlines collected over 25.5 years (mostly about European events)
 -	The file is in CSV format
--	The file contains three features per datapoint namely “Publish date”, “Headline category” and “Headline” 
+-	The file contains three features per datapoint namely “Publish date”, “Headline category” and “Headline”
 -	Again, we will focus on the headline column and will need to exclude especially the categories in order to be able to perform clustering without biasing our model
 
 
@@ -35,15 +35,13 @@ In the following project we are going to perform a topic modelling on news headl
 9.	Conclude whether some topics are over/underrepresented in an (in)formal news context
 
 ## Sources
+[Twitter for Sparking a Movement, Reddit for Sharing the Moment: #metoo through the Lens of Social Media](https://arxiv.org/abs/1803.08022)
 
-[The Social Perception of Heroes and Murderers: Effects of Gender-Inclusive Language in Media Reports](https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00369/full)
+#### Non-Academic sources
+LDA:
+[Topic Modeling in Python: Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
 
-
-[Good Secretaries, Bad Truck Drivers? Occupational Gender Stereotypes in Sentiment Analysis](https://arxiv.org/pdf/1906.10256.pdf)
-
-[A Sentiment Analysis of Language & Gender Using Word Embedding Models](https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=3473&context=gc_etds)
--graduate work
-
-[Mitigating Gender Bias in Natural Language Processing: Literature Review](https://arxiv.org/ftp/arxiv/papers/1906/1906.08976.pdf)
+Sentence embeddings:
+[Top 4 Sentence Embedding Techniques using Python](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
 
 ## Documentation
