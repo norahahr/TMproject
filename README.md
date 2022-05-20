@@ -43,6 +43,7 @@ LDA:
 
 Sentence embeddings:
 [Top 4 Sentence Embedding Techniques using Python](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
+[Clustering Sentence Embeddings to Identify Intents in Short Texts](https://towardsdatascience.com/clustering-sentence-embeddings-to-identify-intents-in-short-text-48d22d3bf02e)
 
 ## Documentation
 HDBSCAN: https://github.com/scikit-learn-contrib/hdbscan
