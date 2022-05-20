@@ -45,3 +45,4 @@ Sentence embeddings:
 [Top 4 Sentence Embedding Techniques using Python](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
 
 ## Documentation
+HDBSCAN: https://github.com/scikit-learn-contrib/hdbscan
