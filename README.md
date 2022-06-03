@@ -3,10 +3,11 @@
 ## Abstract
 In the following project we are going to perform a topic modelling on news headlines. The goal of the project is to compare the distribution of topics in an informal context of Reddit news headlines and a formal newspaper’s headlines. The investigation is guided by the hypothesis of finding an overrepresentation of some more polarized topics in the informal context, as opposed to the null hypothesis that there is no significant difference in topic distribution between both types of headlines. Finding a statistically significant difference would be for instance helpful in the discipline of media studies; understanding how polarization emerges from different news channels.
 
-## Research questions
+## Research question
 -	Does there exist an overrepresentation of controversial topic in an informal news source such as Reddit?
 
 ## Documentation
+Clustering.ipynb and LDA.ipynb are the main code of the files. For convenience both contain the basic preprocessing pipeline and the respective topic modeling method.
 
 ## Dataset
 [Reddit Worldnews](https://www.kaggle.com/datasets/rootuser/worldnews-on-reddit)
