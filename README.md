@@ -6,6 +6,8 @@ In the following project we are going to perform a topic modelling on news headl
 ## Research questions
 -	Does there exist an overrepresentation of controversial topic in an informal news source such as Reddit?
 
+## Documentation
+
 ## Dataset
 [Reddit Worldnews](https://www.kaggle.com/datasets/rootuser/worldnews-on-reddit)
 ### Reddit Worldnews headlines:
@@ -35,9 +37,6 @@ In the following project we are going to perform a topic modelling on news headl
 9.	Conclude whether some topics are over/underrepresented in an (in)formal news context
 
 ## Sources
-[Twitter for Sparking a Movement, Reddit for Sharing the Moment: #metoo through the Lens of Social Media](https://arxiv.org/abs/1803.08022)
-
-#### Non-Academic sources
 LDA:
 [Topic Modeling in Python: Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
 
@@ -45,5 +44,5 @@ Sentence embeddings:
 [Top 4 Sentence Embedding Techniques using Python](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
 [Clustering Sentence Embeddings to Identify Intents in Short Texts](https://towardsdatascience.com/clustering-sentence-embeddings-to-identify-intents-in-short-text-48d22d3bf02e)
 
-## Documentation
-HDBSCAN: https://github.com/scikit-learn-contrib/hdbscan
+HDBSCAN:
+https://github.com/scikit-learn-contrib/hdbscan
