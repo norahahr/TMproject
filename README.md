@@ -8,6 +8,7 @@ In the following project we are going to perform a topic modelling on news headl
 
 ## Documentation
 Clustering.ipynb and LDA.ipynb are the main code of the files. For convenience both contain the basic preprocessing pipeline and the respective topic modeling method.
+The datasets need to be downloaded beforehand. The links to them can be found in the section below.
 
 ## Dataset
 [Reddit Worldnews](https://www.kaggle.com/datasets/rootuser/worldnews-on-reddit)
