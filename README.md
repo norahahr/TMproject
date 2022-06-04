@@ -46,9 +46,9 @@ LDA:
 [Topic Modeling in Python: Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
 
 Sentence embeddings:
-[Top 4 Sentence Embedding Techniques using Python](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
-[Clustering Sentence Embeddings to Identify Intents in Short Texts](https://towardsdatascience.com/clustering-sentence-embeddings-to-identify-intents-in-short-text-48d22d3bf02e)
-[Top2Vec: Distributed Representations of Topics (Angelov, 2020)](https://arxiv.org/pdf/2008.09470.pdf)
+- [Top 4 Sentence Embedding Techniques using Python](https://www.analyticsvidhya.com/blog/2020/08/top-4-sentence-embedding-techniques-using-python/)
+- [Clustering Sentence Embeddings to Identify Intents in Short Texts](https://towardsdatascience.com/clustering-sentence-embeddings-to-identify-intents-in-short-text-48d22d3bf02e)
+- [Top2Vec: Distributed Representations of Topics (Angelov, 2020)](https://arxiv.org/pdf/2008.09470.pdf)
 
 HDBSCAN:
 https://github.com/scikit-learn-contrib/hdbscan
